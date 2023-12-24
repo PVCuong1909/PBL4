@@ -19,8 +19,8 @@ exports.up = function(knex) {
 	.createTable('job_detail', function (table) {
 		table.increments('id').primary();
 		table.mediumtext('Title');
-		table.mediumtext('Image');
 		table.mediumtext('Company');
+		table.mediumtext('Image');
 		table.mediumtext('Posting_date');
 		table.mediumtext('Deadline');
 		table.mediumtext('Salary');
